@@ -1,0 +1,43 @@
+package org.chauhansoft.controller;
+
+import org.chauhansoft.dao.StudentDao;
+import org.chauhansoft.model.Student;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class StudentController {
+
+	@Autowired
+	private Student student;
+	@Autowired
+	private StudentDao studentDao;
+	
+	@RequestMapping("/studentPortal")
+	public String loadHomePage() {
+		return "home";
+	}
+	
+	@RequestMapping("/register")
+	public String loadRegisterPage(Model model) {
+		model.addAttribute("studentBean", student);
+		return "register";
+	}
+
+//	@RequestMapping("/studentInsert")
+//	public String registerStudent(@ModelAttribute("studentBean") Student student, Model model) {
+//		boolean flag = studentDao.insertStudent(student);
+//		if (flag) {
+//			model.addAttribute("msg", "Student records inserted successfully.....");
+//			return "register";
+//		} else {
+//			model.addAttribute("msg", "Student records not inserted.");
+//			return "register";
+//		}
+//	}
+	
+	
+}

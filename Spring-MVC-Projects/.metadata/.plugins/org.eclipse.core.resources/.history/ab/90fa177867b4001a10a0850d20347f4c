@@ -1,0 +1,54 @@
+package org.chauhansoft.dao;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.chauhansoft.model.Employee;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class EmployeeDao {
+	
+	private Configuration configuration;
+	private SessionFactory factory;
+	private Session session;
+	private Transaction transaction; 
+
+	public Boolean login(Employee emp) {
+		// TODO Auto-generated method stub
+		boolean flag = false;
+		
+		configuration = new Configuration().configure("hibernate.cfg.xml");
+		factory = configuration.buildSessionFactory();
+		session = factory.openSession();
+		transaction = session.beginTransaction();
+		List list = session.createQuery("from Employee").list();
+		
+		Iterator itr  = list.iterator();
+		while (itr.hasNext()) {
+			Employee employee = (Employee)itr.next();
+			if (employee.getEmployeeName().equals(emp.getEmployeeName()) && employee.getPassword().equals(emp.getPassword())) {
+				System.out.println("username and password matched");
+				flag = true;
+			} 
+		}
+		return flag;
+	}
+
+	public void registerEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		configuration = new Configuration().configure("hibernate.cfg.xml");
+		factory = configuration.buildSessionFactory();
+		session = factory.openSession();
+		transaction = session.beginTransaction();
+		
+		session.save(emp);
+		transaction.commit();
+		
+	}
+	
+	
+
+}

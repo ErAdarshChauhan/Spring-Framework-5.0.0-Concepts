@@ -1,0 +1,7 @@
+#change server prot
+server.port=2020
+
+
+#configure h2 database
+spring.h2.console.enabled=true
+spring.datasource.platform=h2

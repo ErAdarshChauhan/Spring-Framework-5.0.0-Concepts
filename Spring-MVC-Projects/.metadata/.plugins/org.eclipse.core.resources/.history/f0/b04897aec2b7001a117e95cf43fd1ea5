@@ -1,0 +1,13 @@
+package org.chauhansoft.dao;
+
+import org.chauhansoft.model.Student;
+
+public class StudentDaoImpl implements StudentDao{
+
+	@Override
+	public boolean insertStudent(Student student) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

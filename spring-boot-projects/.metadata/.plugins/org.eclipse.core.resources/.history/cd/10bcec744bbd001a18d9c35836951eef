@@ -1,0 +1,7 @@
+#change tomcat server port
+server.port = 2020
+
+#set view pages
+spring.mvc.view.prefix=/WEB-INF/view
+spring.mvc.view.suffix==.jsp
+

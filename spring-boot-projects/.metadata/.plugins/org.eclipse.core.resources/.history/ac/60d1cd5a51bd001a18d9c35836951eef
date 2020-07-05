@@ -1,0 +1,10 @@
+package com.chauhansoft.controller;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Component;
+
+import com.chauhansoft.model.Student;
+@Component
+public interface StudentDao extends JpaRepository<Student, Integer>{
+
+}

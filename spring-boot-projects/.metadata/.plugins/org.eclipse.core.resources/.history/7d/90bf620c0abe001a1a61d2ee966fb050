@@ -1,0 +1,17 @@
+#change tomcat server port
+server.port = 2020
+
+#set view pages
+spring.mvc.view.prefix=/WEB-INF/view/
+spring.mvc.view.suffix=.jsp
+
+#configure H2 Database
+spring.h2.console.enabled=true
+spring.datasource.platform=h2
+spring.datasource.url=jdbc:h2:~/springdb
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.data-username=admin
+spring.datasource.data-password=admin

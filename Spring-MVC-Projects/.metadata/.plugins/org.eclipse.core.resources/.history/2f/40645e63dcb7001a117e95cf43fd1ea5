@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" isELIgnored="false"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel="stylesheet" href='<spring:url value="/resources/css/bootstrap.min.css"/>' />
+<link rel="stylesheet" href='<spring:url value="/resources/css/mystyle.css"/>' />
+<script type="text/javascript" src='<spring:url value="/resources/js/bootstrap.min.js"/>' ></script>
+<script type="text/javascript" src='<spring:url value="/resources/js/jquery-3.4.1.js"/>' ></script>
+</head>
+<body>
+	
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+				<form:form action="studentInsert" method="post" modelAttribute="studentBean">
+	  <div class="form-group">
+	  	<form:label path="studentId">Id</form:label>
+		<form:input path="studentId" class="form-control"/>
+		
+		<form:label path="studentName">Name</form:label>
+		<form:input path="studentName" class="form-control"/>
+		
+		<form:label path="email">Email</form:label>
+		<form:input path="email" class="form-control"/>
+		
+		<form:label path="address">Address</form:label>
+		<form:input path="address" class="form-control"/>
+		
+		<form:label path="country">Country</form:label>
+		<form:select path="country" class="form-control">
+			<form:option value="0" label="-- Select --"></form:option>
+			<form:options items="${countriesList}" /><!-- itemValue="${countriesList}" -->
+		</form:select>
+		<br>
+		<input type="submit" value="Register" class="form-control btn btn-danger">
+	  </div>
+			
+	</form:form>
+
+	${msg}
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+	
+</body>
+</html>

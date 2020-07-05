@@ -1,0 +1,1 @@
+insert into employee_info(DESIGNATION,EMAIL,EMPLOYEE_NAME) values('Welder,'rameshtyagi@gmail.com','Ramesh Tyagi');

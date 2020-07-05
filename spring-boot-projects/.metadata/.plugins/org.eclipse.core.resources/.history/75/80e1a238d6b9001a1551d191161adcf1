@@ -1,0 +1,13 @@
+package com.example.springbootusingjsp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootUsingJspApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootUsingJspApplication.class, args);
+	}
+
+}

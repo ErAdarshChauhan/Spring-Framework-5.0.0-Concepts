@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.chauhansoft.controllers.HelloController&apos; to &apos;LoginController&apos;&#x0D;&#x0A;- Original project: &apos;Spring_mvc_Form_with_Model&apos;&#x0D;&#x0A;- Original element: &apos;org.chauhansoft.controllers.HelloController&apos;&#x0D;&#x0A;- Renamed element: &apos;org.chauhansoft.controllers.LoginController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HelloController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.chauhansoft.controllers{HelloController.java[HelloController" matchStrategy="1" name="LoginController" qualified="false" references="true" similarDeclarations="false" stamp="1590864270742" textual="false" version="1.0"/>
+</session>

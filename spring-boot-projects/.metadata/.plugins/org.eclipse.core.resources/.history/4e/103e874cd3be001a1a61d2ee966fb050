@@ -1,0 +1,33 @@
+package com.chauhansoft.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.chauhansoft.dao.EmployeeDao;
+import com.chauhansoft.model.Employee;
+
+@Controller
+public class EmployeeController {
+
+	@Autowired
+	EmployeeDao dao;
+	
+	@RequestMapping("/")
+	public String homePage() {
+		return "index";
+	}
+	
+	@RequestMapping("/register")
+	public String loadRegisterPage() {
+		return "register";
+	}
+	
+	@RequestMapping("/registerEmployee")
+	public String registrationPage(Employee employee, Model model) {
+		dao.save(employee);
+		model.addAttribute("msg","Records inserted successfully.......");
+		return "register";
+	}
+}

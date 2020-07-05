@@ -1,0 +1,101 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" isELIgnored="false"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employees | ChauhanSoft</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  	.navbar-align{
+  		float: right;
+  	}
+  	table{
+  			width: 1300px,
+  			margin : auto;
+  	}
+  	table,th,td{
+  		border: 1px solid black;
+  		border-collapse: collapse;
+  		text-align: center;
+  	}
+  	th{
+  		background-color: black;
+  		color:white;
+  		
+  	}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand text-white" href="#">ChauhanSoft</a>
+    </div>
+    <ul class="nav navbar-nav navbar-align">
+      <li class="active"><a href="register">Register Employee</a></li> 
+ 	  <li class="active"><a href="normalSearch">Search Employee</a></li>
+ 	  <li class="active"><a href="displayEmployee">Display All Employee</a></li>
+    </ul>
+  </div>
+</nav>
+  
+ 
+<div class="container">
+  <h3>Search Employee with using one or more fields</h3>
+  
+  <form:form action="searchEmployee" method="post" modelAttribute="searchEmployeeBean">
+  	
+  		<div class="form-group">
+  		  
+  		   		<form:label path="employeeId">Enter Id</form:label>
+  		   		<form:input path="employeeId"/> Or
+  		  
+  		   		<form:label path="employeeName">Enter Name</form:label>
+  		   		<form:input path="employeeName"/> Or
+  		   
+  		   		<form:label path="email">Enter Email</form:label>
+  		   		<form:input path="email"/> Or
+  		   
+  		   		<form:label path="password">Enter Password</form:label>
+  		   		<form:input path="password"/> Or
+  		   
+  		   		<form:label path="address">Enter Address</form:label>
+  		   		<form:input path="address"/>
+  		
+  		   		<input type="submit" value="Search" class="btn btn-primary">
+  		</div>  		
+  </form:form>
+  <br/>
+  <h3>Employees Are</h3>
+ 
+   <p>
+   		<table>
+		  <tr>
+		    <th>Employee Id</th>
+		    <th>Name</th>
+		    <th>Password</th>
+		    <th>Email</th>
+		  </tr>
+		  <c:forEach var="tab" items="${data}">
+		  		<tr>
+		    		<td>${tab.employeeId}</td>
+		   			<td>${tab.employeeName}</td>
+		   			<td>${tab.password}</td>
+		   			<td>${tab.email}</td>
+		 		 </tr>
+		  </c:forEach>
+		  
+		</table>
+   </p>
+   <p>${msg}</p>
+</div>
+
+</body>
+</html>

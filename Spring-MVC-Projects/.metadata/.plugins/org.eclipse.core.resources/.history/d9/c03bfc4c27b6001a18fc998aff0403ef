@@ -1,0 +1,27 @@
+package org.chauhansoft.controller;
+
+import org.chauhansoft.model.Student;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class StudentController {
+
+	@Autowired
+	private Student student;
+	
+	@RequestMapping("/studentPortal")
+	public String loadHomePage() {
+		return "home";
+	}
+	
+	@RequestMapping("/register")
+	public String loadRegisterPage() {
+		
+		return "register";
+	}
+	
+	
+	
+}

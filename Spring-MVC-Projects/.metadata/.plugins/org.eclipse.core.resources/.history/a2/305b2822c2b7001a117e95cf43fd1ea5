@@ -1,0 +1,10 @@
+package org.chauhansoft.services;
+
+import org.chauhansoft.model.Student;
+import org.springframework.stereotype.Service;
+
+@Service
+public interface StudentService {
+
+	public int insertStudent(Student student);
+}

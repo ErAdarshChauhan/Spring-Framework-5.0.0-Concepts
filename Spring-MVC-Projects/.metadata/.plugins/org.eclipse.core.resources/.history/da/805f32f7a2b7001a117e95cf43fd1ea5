@@ -1,0 +1,45 @@
+package org.chauhansoft.model;
+
+import java.util.Map;
+
+public class Student {
+
+	private int studentId;
+	private String studentName;
+	private String email;
+	private String address;
+	private Map country;
+	
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public Map getCountry() {
+		return country;
+	}
+	public void setCountry(Map country) {
+		this.country = country;
+	}
+	
+	
+}

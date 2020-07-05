@@ -1,0 +1,5 @@
+package org.chauhansoft.services;
+
+public interface StudentService {
+
+}

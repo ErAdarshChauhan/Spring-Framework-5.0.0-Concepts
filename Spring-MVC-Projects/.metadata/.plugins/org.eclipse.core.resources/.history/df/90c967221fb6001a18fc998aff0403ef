@@ -1,0 +1,5 @@
+package org.chauhansoft.configuration;
+
+public class ConfigurationWebMvc_ApplicationContextXml {
+
+}

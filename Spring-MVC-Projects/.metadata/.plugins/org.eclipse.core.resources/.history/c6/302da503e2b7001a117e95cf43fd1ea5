@@ -1,0 +1,8 @@
+package org.chauhansoft.dao;
+
+import org.chauhansoft.model.Student;
+
+public interface StudentDao {
+
+	public boolean insertStudent(Student student);
+}

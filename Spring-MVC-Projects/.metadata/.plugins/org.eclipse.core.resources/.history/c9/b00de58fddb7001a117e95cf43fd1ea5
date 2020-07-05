@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel="stylesheet" href='<spring:url value="/resources/css/bootstrap.min.css"/>' />
+<link rel="stylesheet" href='<spring:url value="/resources/css/mystyle.css"/>' />
+<script type="text/javascript" src='<spring:url value="/resources/js/bootstrap.min.js"/>' ></script>
+<script type="text/javascript" src='<spring:url value="/resources/js/jquery-3.4.1.js"/>' ></script>
+</head>
+<body>
+		<img alt="image" src='<spring:url value="/resources/images/pic-2.jfif"></spring:url>' width="200px" height="400px">
+		<a href="register" class="text-black">Register</a>
+		
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('a').css({
+				"background-color":"black",
+				"color":"white",
+				"width":"150px"
+			});
+		});
+
+		</script>
+</body>
+</html>
+
+

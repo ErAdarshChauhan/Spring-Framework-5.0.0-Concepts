@@ -1,0 +1,6 @@
+insert into employee_info (EMPLOYEE_NAME,EMAIL,DESIGNATION) values("Adarsh Chauhan","er.adarshchauhan@gmail.com","Software Engineer");
+insert into employee_info (EMPLOYEE_NAME,EMAIL,DESIGNATION) values("Ramesh Tyagi","rameshtyagi@gmail.com","Welder");
+insert into employee_info (EMPLOYEE_NAME,EMAIL,DESIGNATION) values("Nataraz","nataraz@gmail.com","Java Faculty");
+insert into employee_info (EMPLOYEE_NAME,EMAIL,DESIGNATION) values("Ram Singh","ramsingh@gmail.com","Helper");
+insert into employee_info (EMPLOYEE_NAME,EMAIL,DESIGNATION) values("Rakesh Singh","rakeshsingh@gmail.com","Farmer");
+insert into employee_info (EMPLOYEE_NAME,EMAIL,DESIGNATION) values("Rajesh Chauhan","rajeshchauhan@gmail.com","Politician");

@@ -1,0 +1,61 @@
+package org.chauhansoft.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.apache.catalina.User;
+import org.chauhansoft.dao.EmployeeDao;
+import org.chauhansoft.model.Employee;
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class EmployeeController {
+
+	private AbstractApplicationContext container;
+	@RequestMapping("/login")
+	public String loadLoginPage(Model model) {
+		container = new ClassPathXmlApplicationContext("SpringBean.xml");
+		Employee employee = container.getBean("employee", Employee.class);
+		
+		model.addAttribute("employeeBean", employee);
+		return "login";
+	}
+	
+	@RequestMapping("/loginUser")
+	public String loginEmployee(@ModelAttribute("employeeBean")Employee emp, Model model,HttpServletRequest request) {
+		container = new ClassPathXmlApplicationContext("SpringBean.xml");
+		EmployeeDao dao = container.getBean("employeeDao", EmployeeDao.class);
+		
+		Boolean flag = dao.login(emp);
+		if (flag) {
+			HttpSession session = request.getSession();
+			User userInfo = container.getBean("userInfo",User.class);
+			userInfo.set
+		} else {
+			model.addAttribute("msg","Incorrect Username and Password.");
+		}
+		return "employeeDashboard";
+	}
+	
+	@RequestMapping("/register")
+	public String loadRegisterPage(Model model) {
+		container = new ClassPathXmlApplicationContext("SpringBean.xml");
+		Employee employee = container.getBean("employee", Employee.class);
+		model.addAttribute("employeeBeanRegister", employee);
+		return "register";
+	}
+	
+	@RequestMapping("registerEmployee")
+	public String registerEmployee(@ModelAttribute("employeeBeanRegister")Employee emp,Model model) {
+		container = new ClassPathXmlApplicationContext("SpringBean.xml");
+		EmployeeDao dao = container.getBean("employeeDao", EmployeeDao.class);
+		dao.registerEmployee(emp);
+		model.addAttribute("msg","<h3 style='color:green;'>Employee Register successfully.......</h3>");
+		return "register";
+	}
+}

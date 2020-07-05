@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel="stylesheet" href='<spring:url value="/resources/css/bootstrap.min.css"/>' />
+<link rel="stylesheet" href='<spring:url value="/resources/css/mystyle.css"/>' />
+</head>
+<body>
+		<img alt="image" src='<spring:url value="/resources/images/pic-2.jfif"></spring:url>'>
+		<a href="register" class="text-white">Register</a>
+</body>
+</html>
+
+

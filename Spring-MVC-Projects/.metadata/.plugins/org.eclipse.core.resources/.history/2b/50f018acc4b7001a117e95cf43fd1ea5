@@ -1,0 +1,10 @@
+package org.chauhansoft.dao;
+
+import org.chauhansoft.model.Student;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentDao {
+
+	public boolean insertStudent(Student student);
+}

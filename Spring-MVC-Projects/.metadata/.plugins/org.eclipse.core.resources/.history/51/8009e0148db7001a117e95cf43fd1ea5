@@ -1,0 +1,68 @@
+package org.chauhansoft.configuration;
+
+import org.chauhansoft.dao.StudentDao;
+import org.chauhansoft.model.Student;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan(basePackages = {"org.chauhansoft.*"})
+public class ConfigurationWebMvc_ApplicationContextXml implements WebMvcConfigurer{
+	
+//	@Bean
+//	public InternalResourceViewResolver viewResolver() {
+//		InternalResourceViewResolver vr = new InternalResourceViewResolver();
+//		vr.setPrefix("/WEB-INF/jsp/");
+//		vr.setSuffix(".jsp");
+//		return vr;
+//	}
+	
+	
+	//this is another way to configure ViewResolvers,for this you have to implement WebMvcConfigurer interface and override configureViewResolvers
+	// method that uses jsp(prefix,suffix); internally.
+	@Override
+	public void configureViewResolvers(ViewResolverRegistry registry) {
+		// TODO Auto-generated method stub
+		registry.jsp("/WEB-INF/jsp/", ".jsp");
+	}
+	
+	//this method is used for loading/adding static resources to the spring application like images,css,js files.
+	@Override
+		public void addResourceHandlers(ResourceHandlerRegistry registry) {
+			// TODO Auto-generated method stub
+			registry.addResourceHandler("/resources/**").addResourceLocations("classpath:/statics/");
+			
+		}
+	
+	
+	@Bean
+	public DriverManagerDataSource getDataSource() {
+		DriverManagerDataSource ds = new DriverManagerDataSource();
+		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		ds.setUrl("jdbc:mysql://localhost:3306/springdb");
+		ds.setUsername("root");
+		ds.setPassword("password");
+		
+		return ds;
+	}
+	
+	@Bean
+	public StudentDao getConnection() {
+		return new StudentDao(getDataSource());
+	}
+	
+	@Bean
+	public Student student() {
+		return new Student();
+	}
+
+}

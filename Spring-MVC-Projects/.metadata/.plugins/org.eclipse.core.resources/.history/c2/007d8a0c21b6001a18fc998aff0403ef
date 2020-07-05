@@ -1,0 +1,5 @@
+package org.chauhansoft.controller;
+
+public class StudentController {
+
+}

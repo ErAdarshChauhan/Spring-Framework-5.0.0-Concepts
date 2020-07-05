@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Jun 28 17:06:40 IST 2020
+org.eclipse.jst.j2ee.server\:spring-mvc-with-java-annotations-based-configuration=C\:\\Tomcat 9.0\\wtpwebapps\\spring-mvc-with-java-annotations-based-configuration
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\HP\\.m2\\repository\\org\\springframework\\spring-web\\5.1.1.RELEASE\\spring-web-5.1.1.RELEASE.jar=C\:\\Tomcat 9.0\\wtpwebapps\\spring-mvc-with-java-annotations-based-configuration\\WEB-INF\\lib\\spring-web-5.1.1.RELEASE.jar

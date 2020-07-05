@@ -1,0 +1,5 @@
+package com.chauhansoft.controller;
+
+public interface StudentDao {
+
+}
