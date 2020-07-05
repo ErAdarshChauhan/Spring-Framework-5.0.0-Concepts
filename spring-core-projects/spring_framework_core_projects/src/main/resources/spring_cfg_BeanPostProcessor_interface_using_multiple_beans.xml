@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  
+  <bean id="db" class="org.mindgame.sf_core_BeanPostProcessor_interface_using_multiple_beans.DemoBean">
+  	<property name="msg" value="Adarsh Chauhan"/>
+  </bean>
+  
+  <bean id="db1" class="org.mindgame.sf_core_BeanPostProcessor_interface_using_multiple_beans.DemoBean">
+  	<property name="msg" value="Ramesh Tyagi"/>
+  </bean>
+  
+  <bean id="pb" class="org.mindgame.sf_core_BeanPostProcessor_interface_using_multiple_beans.ProcessorBean"/>
+</beans>

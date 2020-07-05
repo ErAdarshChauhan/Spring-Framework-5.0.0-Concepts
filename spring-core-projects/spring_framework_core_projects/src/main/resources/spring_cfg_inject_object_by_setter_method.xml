@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <!-- Spring Bean -->
+  <bean id="db" class="org.mindgame.sf_core_inject_object_by_setter_injection.DemoBean">
+  	<!-- perform setter injection  -->
+    <property name="name" value="Adarsh Chauhan"/>
+    <property name="age" value="30"/>
+    <property name="d" ref="dt"/>
+    <property name="t" ref="tb"/>
+  </bean>
+  
+  <!-- Dependent Beans -->
+  <bean id="tb" class="org.mindgame.sf_core_inject_object_by_setter_injection.TestBean">
+  	<property name="msg" value="Hello"/>
+  </bean>
+  <bean id="dt" class="java.util.Date"/>
+  
+</beans>

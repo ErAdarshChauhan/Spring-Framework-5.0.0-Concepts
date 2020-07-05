@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <!-- Normal Bean --> 
+ <bean id="db" class="org.mindgame.sf_core_static_factory_method.DemoBean">
+ 	<constructor-arg value="Adarsh"/>
+ </bean>
+ <!-- Instance Factory method -->
+ <bean id="s1" class="java.lang.String">
+ 	<constructor-arg value="Hello"/>
+ </bean>
+ <bean id="s2" factory-bean="s1" factory-method="concat">
+ 	<constructor-arg value=" Fine"/>
+ </bean>
+ <bean id="s3" factory-bean="s2" factory-method="concat">
+ 	<constructor-arg value=" Sir"/>
+ </bean>
+ 
+ <!-- static factory method -->
+ <bean id="cl" class="java.util.Calendar" factory-method="getInstance"/>
+ <bean id="c" class="java.lang.Class" factory-method="forName">
+ 	<constructor-arg value="java.lang.System"/>
+ </bean>
+ 
+</beans>

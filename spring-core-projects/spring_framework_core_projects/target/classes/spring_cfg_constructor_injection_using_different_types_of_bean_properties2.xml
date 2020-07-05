@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  
+  <bean id="db" class="org.mindgame.sf_core_constructor_injection_using_different_types_of_bean_properties.DemoBean">
+  	<!-- perform constructor injection  -->
+    <constructor-arg value="Adarsh Chauhan"/>
+    <constructor-arg ref="dt"/>
+    <constructor-arg>
+    	<list>
+    		<value>Nataraj</value>
+    		<value>Sekhar Reddy</value>
+    		<value>Rami Reddy</value>
+    		<value>Rakesh</value>
+    	</list>
+    </constructor-arg>
+    <constructor-arg>
+    	<set>
+    		<value>8700790342</value>
+    		<value>9466679887</value>
+    		<value>9711931400</value>
+    	</set>
+    </constructor-arg>
+    <constructor-arg>
+    	<map>
+    		<entry>
+    			<key><value>Andhra Pradesh</value></key>
+    			<value>Hyderabad</value>
+    		</entry>
+    		<entry>
+    			<key><value>India</value></key>
+    			<value>New Delhi</value>
+    		</entry>
+    		<entry>
+    			<key><value>Uttar Pradesh</value></key>
+    			<value>Lucknow</value>
+    		</entry>
+    		<entry>
+    			<key><value>Haryana</value></key>
+    			<value>Faridabad</value>
+    		</entry>
+    	</map>
+    </constructor-arg>
+    <constructor-arg>
+    	<props>
+    		<prop key="Spring">Rod Johanson</prop>
+    		<prop key="Thinking Java">Bruce Ekel</prop>
+    	</props>
+    </constructor-arg>
+  </bean>
+  
+</beans>

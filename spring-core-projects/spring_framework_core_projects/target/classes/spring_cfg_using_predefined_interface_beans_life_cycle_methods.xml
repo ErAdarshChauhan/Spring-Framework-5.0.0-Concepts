@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <!-- <bean id="db" class="org.mindgame.sf_core_scopes_in_spring.DemoBean"> -->
+  <bean id="db" class="org.mindgame.sf_core_using_predefined_interface_beans_life_cycle_methods.DemoBean">
+    <property name="name" value="Adarsh Chauhan"/>
+    <property name="age" value="99"/>
+    <property name="d" ref="dt"/>
+  </bean>
+  <bean id="dt" class="java.util.Date"/>
+</beans>

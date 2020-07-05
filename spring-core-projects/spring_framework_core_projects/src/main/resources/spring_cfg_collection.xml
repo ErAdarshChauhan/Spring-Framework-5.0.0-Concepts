@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean id="db" class="org.mindgame.sf_core_collections.DemoBean">
+  	<!-- perform setter injection  -->
+  	<property name="name" value="Adarsh Chauhan"/>
+ 	<property name="d" ref="dt"/>
+ 	<property name="colors">
+ 		<list>
+ 			<value>Red</value>
+ 			<value>Black</value>
+ 			<value>White</value>
+ 		</list>
+ 	</property>
+ 	<property name="faculties">
+ 		<list>
+ 			<value>Natraj</value>
+ 			<value>Sekhar Reddy</value>
+ 			<value>Rami Reddy</value>
+ 		</list>
+ 	</property>
+ 	<property name="phones">
+ 		<set>
+ 			<value>8700790342</value>
+ 			<value>9466679887</value>
+ 			<value>9711931400</value>
+ 		</set>
+ 	</property>
+ 	<property name="fruits">
+ 	  <map>
+ 	  	<entry>
+ 	  		<key><value>Apple</value></key>
+ 	  		<value>Red/Green</value>
+ 		</entry>
+ 		<entry>
+ 	  		<key><value>Orange</value></key>
+ 	  		<value>Yellow/Red</value>
+ 		</entry>
+ 		<entry>
+ 	  		<key><value>Banana</value></key>
+ 	  		<value>Yellow</value>
+ 		</entry>
+ 	  </map>	
+ 	</property>
+ 	<property name="capitals">
+ 		<props>
+ 			<prop key="India">New Delhi</prop>
+ 			<prop key="Chine">Bejing</prop>
+ 			<prop key="UK">London</prop>
+ 		</props>
+ 	</property>
+ 	
+  </bean>
+  <bean id="dt" class="java.util.Date"/>
+  
+</beans>

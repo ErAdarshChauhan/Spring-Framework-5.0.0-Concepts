@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean id="tb" class="org.mindgame.sf_core_autowire.TestBean">
+  	<!-- perform setter injection  -->
+  	<property name="msg" value="Adarsh Chauhan"/>
+  </bean>
+  
+  <!-- <bean id="t" class="org.mindgame.sf_core_autowire.TestBean"> 
+  	<property name="msg" value="Adarsh Chauhan"/>
+  </bean>
+   -->
+ <!--  <bean id="t2" class="org.mindgame.sf_core_autowire.TestBean">
+  	
+  	<constructor-arg value="Adarsh Chauhan"/>
+  </bean> -->
+  
+  <!-- performing autowire="byName" -->
+  <bean id="db" class="org.mindgame.sf_core_autowire.DemoBean" autowire="byName">
+  	<property name="tb" ref="tb"/>
+  </bean>
+  
+</beans>

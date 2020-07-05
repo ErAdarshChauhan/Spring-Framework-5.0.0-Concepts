@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean id="t" class="org.mindgame.sf_core_using_factory_bean_and_normal_bean_class.TestBean">
+  	<!-- <property name="msg"><null></null></property> -->
+  	<property name="msg" value="hay"/>
+  </bean>
+  
+  <bean id="db" class="org.mindgame.sf_core_using_factory_bean_and_normal_bean_class.DemoBean">
+  	<property name="tb" ref="t"/>
+  </bean>
+  
+</beans>

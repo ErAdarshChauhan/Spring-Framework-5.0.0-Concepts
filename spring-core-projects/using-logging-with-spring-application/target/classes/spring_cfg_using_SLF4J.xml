@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean id="db" class="org.chauhansoftware.using_SLF4J_with_Log4J.DemoBean">
+  	<property name="msg" value="Adarsh Chauhan"/>
+  </bean>
+</beans>
