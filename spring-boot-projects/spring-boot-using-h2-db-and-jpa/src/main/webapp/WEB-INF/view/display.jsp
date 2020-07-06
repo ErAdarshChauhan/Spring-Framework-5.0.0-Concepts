@@ -8,13 +8,13 @@
 <script src="jquery-3.4.1.js"></script>
 <script type="text/javascript">
 	/* $(document).ready(function() {
-		alert("Hi");
+		alert("${msg}");
 	}); */
 </script>
 <style type="text/css">
 table {
 	margin: auto;
-	width: 600px;
+	width: 100%;
 }
 
 table, td, tr {
@@ -28,22 +28,44 @@ th{
 </style>
 </head>
 <body>
+	<div align="center">
+			<h1>Employee Operations</h1><hr/>
+		</div>
+	 <div align="center">
+	 	 
+	 	<h5>${msg}</h5>
+	 </div>
+		
 		<table>
 		   <tr>
 		   		<th>Id</th>
 		   		<th>Name</th>
 		   		<th>Email</th>
 		   		<th>Designation</th>
+		   		<th>Action</th>
 		   </tr>
 		   <c:forEach var="tab" items="${data}"> 
+		     <form action="edit" method="post">
 		   		<tr align="center">
-		   			<td>${tab.employeeId}</td>
-		   			<td>${tab.employeeName}</td>
-		   			<td>${tab.email}</td>
-		   			<td>${tab.designation}</td>
+		   			<td><input type="text" name="employeeId" value="${tab.employeeId}" readonly></td>
+		   			<td><input type="text" name="employeeName" value="${tab.employeeName}"></td>
+		   			<td><input type="text" name="email" value="${tab.email}"></td>
+		   			<td><input type="text" name="designation" value="${tab.designation}"></td>
+		   			<td>
+		   				<input type="submit" value="Update">
+		   				</form>
+		   				<form action="delete" method="post">
+		   					<input type="hidden" name="employeeId" value="${tab.employeeId}">
+		   					<input type="submit" value="Delete">
+		   				</form>
+		   			</td>
 		   		</tr>
+		   		
 		   </c:forEach>	   
+		   		<tr>
+		   			<td colspan="6" align="center"><h4>Total Records : ${countRecords}</h4></td>
+		   		</tr>
 	  </table>	
-	<h5 align="center">${msg}</h5>
+
 </body>
 </html>

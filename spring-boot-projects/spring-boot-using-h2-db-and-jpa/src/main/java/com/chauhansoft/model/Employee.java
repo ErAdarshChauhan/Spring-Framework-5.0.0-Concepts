@@ -41,6 +41,11 @@ public class Employee {
 	public void setDesignation(String designation) {
 		this.designation = designation;
 	}
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", email=" + email
+				+ ", designation=" + designation + "]";
+	}
 	
 	
 	
