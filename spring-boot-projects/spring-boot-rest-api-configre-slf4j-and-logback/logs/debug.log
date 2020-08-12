@@ -1,0 +1,17 @@
+#logback.classic pattern: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+"2020-08-01 17:03:06 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - RequestAdarsh Chauhan
+""2020-08-01 17:03:06 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - Response Hey! Adarsh Chauhan Welcome to Spring Boot Logging. 
+""2020-08-01 17:05:06 [http-nio-2020-exec-4] DEBUG c.c.controller.EmployeeController - Requesttest
+"#logback.classic pattern: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+#logback.classic pattern: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+"2020-08-01 17:06:42 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - RequestAdarsh Chauhan
+""2020-08-01 17:06:42 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - Response Hey! Adarsh Chauhan Welcome to Spring Boot Logging. 
+""2020-08-01 17:07:12 [http-nio-2020-exec-3] DEBUG c.c.controller.EmployeeController - Requesttest
+""2020-08-01 17:08:52 [http-nio-2020-exec-5] DEBUG c.c.controller.EmployeeController - RequestAdarsh Chauhan
+""2020-08-01 17:08:52 [http-nio-2020-exec-5] DEBUG c.c.controller.EmployeeController - Response Hey! Adarsh Chauhan Welcome to Spring Boot Logging. 
+""2020-08-01 17:09:20 [http-nio-2020-exec-6] DEBUG c.c.controller.EmployeeController - RequestAdarsh Chauhan
+""2020-08-01 17:09:20 [http-nio-2020-exec-6] DEBUG c.c.controller.EmployeeController - Response Hey! Adarsh Chauhan Welcome to Spring Boot Logging. 
+""2020-08-01 17:09:36 [http-nio-2020-exec-10] DEBUG c.c.controller.EmployeeController - Requesttest
+""2020-08-01 17:09:56 [http-nio-2020-exec-3] DEBUG c.c.controller.EmployeeController - RequestAdarsh Chauhan
+""2020-08-01 17:09:56 [http-nio-2020-exec-3] DEBUG c.c.controller.EmployeeController - Response Hey! Adarsh Chauhan Welcome to Spring Boot Logging. 
+"

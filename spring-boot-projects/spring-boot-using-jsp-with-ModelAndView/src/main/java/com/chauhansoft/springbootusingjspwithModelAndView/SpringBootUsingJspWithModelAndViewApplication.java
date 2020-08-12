@@ -8,8 +8,8 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = "com.chauhansoft")
 public class SpringBootUsingJspWithModelAndViewApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootUsingJspWithModelAndViewApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootUsingJspWithModelAndViewApplication.class, args);
+    }
 
 }

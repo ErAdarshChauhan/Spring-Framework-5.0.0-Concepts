@@ -1,0 +1,279 @@
+"2020-08-01 14:29:56 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:29:56 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:29:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:29:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:29:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:29:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:29:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 199 ms
+""2020-08-01 14:29:56 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:29:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:29:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:29:56 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.282 seconds (JVM running for 731.873)
+""2020-08-01 14:29:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:30:00 [http-nio-2020-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-08-01 14:30:00 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - RequestAkshita Chauhan
+""2020-08-01 14:30:00 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - Response Hey! Akshita Chauhan Welcome to Spring Boot Logging. 
+""2020-08-01 14:30:09 [Thread-203] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:09 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:30:09 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:30:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:30:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:30:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:30:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:30:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 174 ms
+""2020-08-01 14:30:09 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:09 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:30:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:30:09 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.259 seconds (JVM running for 744.867)
+""2020-08-01 14:30:09 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:30:12 [Thread-210] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:12 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:30:12 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:30:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:30:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:30:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:30:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:30:12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 218 ms
+""2020-08-01 14:30:12 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:12 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:30:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:30:12 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.32 seconds (JVM running for 747.869)
+""2020-08-01 14:30:12 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:30:17 [Thread-217] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:17 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:30:17 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:30:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:30:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:30:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:30:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:30:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 206 ms
+""2020-08-01 14:30:17 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:30:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:30:17 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.357 seconds (JVM running for 752.902)
+""2020-08-01 14:30:17 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:30:19 [Thread-224] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:19 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:30:19 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:30:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:30:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:30:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:30:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:30:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 172 ms
+""2020-08-01 14:30:19 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:30:19 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:30:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:30:19 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.278 seconds (JVM running for 754.892)
+""2020-08-01 14:30:19 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:31:52 [Thread-231] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:31:53 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:31:53 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:31:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:31:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:31:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:31:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:31:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 191 ms
+""2020-08-01 14:31:53 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:31:53 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:31:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:31:53 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.274 seconds (JVM running for 848.232)
+""2020-08-01 14:31:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:32:32 [Thread-238] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:34:46 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:34:46 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:34:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:34:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:34:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:34:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:34:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 193 ms
+""2020-08-01 14:34:47 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:34:47 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:34:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:34:47 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.277 seconds (JVM running for 1022.116)
+""2020-08-01 14:34:47 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:34:50 [http-nio-2020-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-08-01 14:34:50 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - RequestAganya Chauhan
+""2020-08-01 14:34:50 [http-nio-2020-exec-2] DEBUG c.c.controller.EmployeeController - Response Hey! Aganya Chauhan Welcome to Spring Boot Logging. 
+""2020-08-01 14:36:36 [Thread-259] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:36:36 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:36:36 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:36:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:36:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:36:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:36:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:36:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 162 ms
+""2020-08-01 14:36:37 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:36:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:36:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:36:37 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.328 seconds (JVM running for 1132.031)
+""2020-08-01 14:36:37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:36:39 [Thread-266] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:36:39 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:36:39 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:36:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:36:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:36:39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:36:39 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:36:39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 166 ms
+""2020-08-01 14:36:39 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:36:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:36:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:36:40 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.247 seconds (JVM running for 1135.003)
+""2020-08-01 14:36:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:37:18 [Thread-273] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:37:18 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:37:18 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:37:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:37:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:37:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:37:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:37:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 236 ms
+""2020-08-01 14:37:18 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:37:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:37:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:37:18 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.462 seconds (JVM running for 1173.666)
+""2020-08-01 14:37:18 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:37:20 [Thread-280] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:37:20 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:37:20 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:37:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:37:20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:37:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:37:20 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:37:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 148 ms
+""2020-08-01 14:37:20 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:37:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:37:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:37:20 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.234 seconds (JVM running for 1175.537)
+""2020-08-01 14:37:20 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:37:37 [Thread-287] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:37:37 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:37:37 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:37:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:37:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:37:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:37:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:37:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 159 ms
+""2020-08-01 14:37:37 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:37:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:37:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:37:37 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.241 seconds (JVM running for 1192.881)
+""2020-08-01 14:37:37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:38:23 [Thread-294] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:38:23 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:38:23 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:38:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:38:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:38:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:38:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:38:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 187 ms
+""2020-08-01 14:38:24 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:38:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:38:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:38:24 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.313 seconds (JVM running for 1239.113)
+""2020-08-01 14:38:24 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:38:25 [Thread-301] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:38:25 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:38:25 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:38:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:38:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:38:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:38:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:38:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 147 ms
+""2020-08-01 14:38:25 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:38:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:38:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:38:25 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.229 seconds (JVM running for 1240.952)
+""2020-08-01 14:38:25 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:39:32 [Thread-308] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:39:33 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:39:33 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:39:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:39:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:39:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:39:33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:39:33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 209 ms
+""2020-08-01 14:39:33 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:39:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:39:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:39:33 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.311 seconds (JVM running for 1308.249)
+""2020-08-01 14:39:33 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:39:35 [Thread-315] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:39:35 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:39:35 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:39:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:39:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:39:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:39:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:39:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 185 ms
+""2020-08-01 14:39:36 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:39:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:39:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:39:36 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.282 seconds (JVM running for 1311.224)
+""2020-08-01 14:39:36 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:40:06 [Thread-322] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:40:06 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:40:06 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:40:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:40:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:40:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:40:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:40:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 235 ms
+""2020-08-01 14:40:06 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:40:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:40:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:40:06 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.345 seconds (JVM running for 1341.448)
+""2020-08-01 14:40:06 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:40:08 [Thread-329] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:40:08 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+""2020-08-01 14:40:08 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+""2020-08-01 14:40:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+""2020-08-01 14:40:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-08-01 14:40:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-08-01 14:40:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-08-01 14:40:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 161 ms
+""2020-08-01 14:40:08 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-08-01 14:40:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-08-01 14:40:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+""2020-08-01 14:40:08 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.247 seconds (JVM running for 1343.322)
+""2020-08-01 14:40:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-08-01 14:40:42 [Thread-336] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+"2020-08-01 14:40:42 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+2020-08-01 14:40:42 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+2020-08-01 14:40:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-01 14:40:42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-01 14:40:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-01 14:40:42 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-01 14:40:42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 211 ms
+2020-08-01 14:40:42 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 14:40:42 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-08-01 14:40:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-01 14:40:42 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.299 seconds (JVM running for 1377.436)
+2020-08-01 14:40:42 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-08-01 14:40:44 [Thread-343] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 14:40:44 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+2020-08-01 14:40:44 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+2020-08-01 14:40:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-01 14:40:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-01 14:40:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-01 14:40:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-01 14:40:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 157 ms
+2020-08-01 14:40:44 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 14:40:44 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-08-01 14:40:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-01 14:40:44 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.237 seconds (JVM running for 1379.318)
+2020-08-01 14:40:44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-08-01 14:41:15 [Thread-350] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 14:41:15 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Starting SpringBootRestApiConfigreSlf4jAndLogbackApplication on DESKTOP-GRNGVFT with PID 11800 (D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback\target\classes started by HP in D:\gitHub-Project\git-repo-spring-framework-projects\spring-boot-projects\spring-boot-rest-api-configre-slf4j-and-logback)
+2020-08-01 14:41:15 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - No active profile set, falling back to default profiles: default
+2020-08-01 14:41:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2020 (http)
+2020-08-01 14:41:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-01 14:41:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-01 14:41:15 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-01 14:41:15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 176 ms
+2020-08-01 14:41:15 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 14:41:15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-08-01 14:41:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2020 (http) with context path ''
+2020-08-01 14:41:15 [restartedMain] INFO  c.c.SpringBootRestApiConfigreSlf4jAndLogbackApplication - Started SpringBootRestApiConfigreSlf4jAndLogbackApplication in 0.254 seconds (JVM running for 1410.772)
+2020-08-01 14:41:15 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-08-01 14:41:25 [Thread-357] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

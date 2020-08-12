@@ -1,1 +1,0 @@
-insert into employee_info(EMPLOYEE_NAME,EMAIL,DESIGNATION) values('Ramesh Tyagi','rameshtyagi@gmail.com','Welder);

@@ -1,0 +1,13 @@
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+table{
+    margin: auto;
+    width: 900px;
+}

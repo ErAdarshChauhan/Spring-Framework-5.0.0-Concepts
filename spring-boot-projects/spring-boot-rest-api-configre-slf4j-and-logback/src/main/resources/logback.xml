@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true" scan="true" scanPeriod="30 seconds">
+    <property name="LOG_PATH" value="logs"/>
+    <!--  <property name="LOG_ARCHIVE" value="${LOG_PATH}/archive" />
+     <timestamp key="timestamp-by-second" datePattern="yyyyMMdd'T'HHmmss"/>
+      -->
+    <appender name="Console-Appender" class="ch.qos.logback.core.ConsoleAppender">
+        <layout>
+            <pattern>"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"</pattern>
+        </layout>
+    </appender>
+    <appender name="File-Appender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/debug.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"</pattern>
+            <outputPatternAsHeader>true</outputPatternAsHeader>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_ARCHIVE}/debug.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1KB</totalSizeCap>
+        </rollingPolicy>
+
+    </appender>
+
+    <appender name="Error-Appender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/error.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"</pattern>
+            <outputPatternAsHeader>true</outputPatternAsHeader>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_ARCHIVE}/error.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1KB</totalSizeCap>
+        </rollingPolicy>
+
+    </appender>
+
+    <logger name="com.chauhansoft.controller" level="debug" additivity="false">
+        <appender-ref ref="Console-Appender"/>
+        <appender-ref ref="File-Appender"/>
+    </logger>
+    <root>
+        <!-- <appender-ref ref="Console-Appender" />
+        <appender-ref ref="File-Appender" /> -->
+        <appender-ref ref="Error-Appender"/>
+    </root>
+</configuration>

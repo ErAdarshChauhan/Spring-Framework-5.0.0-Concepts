@@ -10,10 +10,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan(basePackages = "com.example.*")
 public class SpringBootUsingJspApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootUsingJspApplication.class, args);
-	}
-	
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootUsingJspApplication.class, args);
+    }
+
 //	@Bean
 //    public InternalResourceViewResolver resolver() {
 //        InternalResourceViewResolver vr = new InternalResourceViewResolver();

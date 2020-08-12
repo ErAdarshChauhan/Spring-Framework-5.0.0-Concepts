@@ -1,0 +1,33 @@
+<div style="text-align: center;">
+    <h3>Search Book Records</h3><hr>
+    <br>
+
+    <div>
+      <form [formGroup]="bookForm" (ngSubmit)="searchByName()">
+        <!-- Id : <input type="text" formControlName="bookId"> -->
+       Book Name : <input type="text" formControlName="bookName">
+        Author : <input type="text" formControlName="author">
+        Price : <input type="text" formControlName="price">
+        <input type="submit"  value="Update">
+      </form>
+      <br>
+
+      <table>
+          <tr>
+            <th>Id</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+          </tr>
+          <tr *ngFor="let book of bookData">
+              <td>{{book.bookId}}</td>
+              <td>{{book.bookName}}</td>
+              <td>{{book.author}}</td>
+              <td>{{book.price}}</td>
+          </tr>
+       
+      </table>
+
+    </div>
+    
+</div>

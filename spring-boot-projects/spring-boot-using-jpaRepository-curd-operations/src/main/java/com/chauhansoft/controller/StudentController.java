@@ -11,19 +11,19 @@ import com.chauhansoft.model.Student;
 @Controller
 public class StudentController {
 
-	
-	 @Autowired 
-	 private StudentDao dao;
-	
-	   
-	@RequestMapping("/")
-	public String homePage() {
-		return "home";
-	}
 
-	@RequestMapping("/getAllStudent")
-	public String getAllStudent(Student student,Model model) {
+    @Autowired
+    private StudentDao dao;
+
+
+    @RequestMapping("/")
+    public String homePage() {
+        return "home";
+    }
+
+    @RequestMapping("/getAllStudent")
+    public String getAllStudent(Student student, Model model) {
 //		studentDao.save();
-		return "home";
-	}
+        return "home";
+    }
 }
