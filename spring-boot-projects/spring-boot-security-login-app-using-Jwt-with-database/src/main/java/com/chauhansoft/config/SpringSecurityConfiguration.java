@@ -28,10 +28,11 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		// TODO Auto-generated method stub
 		http.csrf().disable();
-		http.authorizeRequests().antMatchers("/api/rest/user/**").authenticated()
+		http.httpBasic()
+		.and().authorizeRequests().antMatchers("/api/rest/user/**").authenticated()
 		.and().authorizeRequests().antMatchers("/api/rest/admin/**").authenticated().anyRequest()
 		.hasAnyRole("ADMIN")
-		.and().httpBasic();
+		.and().formLogin().permitAll();
 	}
 	
 	@Bean
